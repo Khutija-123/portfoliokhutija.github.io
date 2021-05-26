@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>PortFolio | Khutija</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<link rel="stylesheet" type="text/css" href="css/responsive.css">
+
+<!-- ChatBot -->
+<link rel="stylesheet" type="text/css" href="css/jquery.convform.css">
+<script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
+<script type="text/javascript" src="js/jquery.convform.js"></script>
+<script type="text/javascript" src="js/custom.js"></script>
+
+</head>
+<body>
+<!-- ChatBot -->
+<div class="chat_icon">
+	<i class="fa fa-comments" aria-hidden="true"></i>
+</div>
+
+<div class="chat_box">
+	<div class="my-conv-form-wrapper">
+		<form action="" method="GET" class="hidden">
+
+      <select data-conv-question="Hello! How can I help you" name="category">
+        <option value="WebDevelopment">Want to talk?</option>
+        <option value="DigitalMarketing">Tell about u</option>
+      </select>
+
+      <div data-conv-fork="category">
+        <div data-conv-case="WebDevelopment">
+          <input type="text" name="domainName" data-conv-question="Happy to talk with you... Where do you study?">    
+        </div>
+        <div data-conv-case="DigitalMarketing" data-conv-fork="first-question2">
+          <input type="text" name="companyName" data-conv-question="Please, enter your area of interest.."> 
+        </div>
+      </div>
+
+      <input type="text" name="name" data-conv-question="Ohh!! So good to hear.. Your name please..">
+
+      <input type="text" data-conv-question="Hi {name}, <br> It's a pleasure to meet you." data-no-answer="true">
+
+      <input data-conv-question="Enter your e-mail" data-pattern="^[a-zA-Z0-9.!#$%&’*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$" type="email" name="email" required placeholder="What's your e-mail?">
+
+       <input type="text" name="name" data-conv-question="If found something, I'll share you through the mail.. Okay?">
+
+      <select data-conv-question="Please click Confirm">
+        <option value="Yes">Confirm</option>
+      </select>
+
+  	</form>
+	</div>
+</div>
+<!-- ChatBot end -->
+
+<header class="header">
+	<div class="container-fluid">
+		<div class="row d-flex justify-content-between">
+			<div class="col-md-auto">
+				<a href="#!" class="logo"><img src="images/logo.png" alt="logo"></a>
+			</div>
+			<div class="col-md-auto">
+				<nav class="main_nav">
+					<ul>
+						<li><a href="#home">Home</a></li>
+						<li><a href="#about">About</a></li>
+						<li><a href="#portfolio">Portfolio</a></li>
+						<li><a href="#contact">Contact</a></li>
+					</ul>
+				</nav>
+			</div>
+		</div>		
+	</div>
+</header>	
+
+<div class="banner d-flex align-items-center" style="background-image: url('images/baaa.jpg');" id="home">
+	<ul class="socila_links">
+		<li><a href="https://www.linkedin.com/in/khutija-gandikota-8bb687141/"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+		<li><a href="https://www.instagram.com/_khutija.gandikota/"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+		<li><a href="https://twitter.com/Khutija2706"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+
+	</ul>	
+	<div class="container">
+		<div class="row">
+			<div class="col-md-5">
+				<div class="banner_cont">
+					<h1>Khutija Gandikota</h1>
+					<p>Student at RGUKT, RK Valley</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>			
+
+<div class="about-section" id="about">
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-md-5 text-justify">
+				<h2 class="bdr-btm">More About Khutija</h2>
+				<p>Currently studying Engineering 3rd year in the stream of Computer Science in
+				Rajiv Gandhi University of Knowledge Technologies, RK Valley.  
+				</p>
+				<div class="col-md">
+				<div class="about-box">
+					<h3 class="bdr-btm">Achievements</h3>
+					<ul>
+						<li>Won many debate competitions </li>
+						<li>District level first prize in the field of IT </li>
+					</ul>
+				</div>
+			</div>
+				<!--<div class="d-flex flex-row justify-content-center">
+					<a href="#contact" class="btn1">Contact Us</a>	
+				</div>-->
+			</div>
+			<div class="col-md">
+				<div class="about-box">
+					<h3 class="bdr-btm">Education</h3>
+					<ul>
+						<li><strong>B.Tech</strong> <br> RGUKT, RK Valley, CGPA: 8.9 </li>
+						<li><strong>PUC</strong> <br> RGUKT, RK Valley, CGPA: 8.87</li>
+						<li><strong>SSC</strong> <br> Mpl. Urdu High School, Proddatur, CGPA: 9.8</li>
+					</ul>
+				</div>
+			</div>
+			<div class="col-md">
+				<div class="about-box">
+					<h3 class="bdr-btm">Skills & Activities</h3>
+					<ul>
+						<li><strong>Front End Development</strong> <br> HTML, CSS, Js, Bootstrap</li>
+						<li><strong>Programming Languages</strong> <br> C, Java, Python</li>
+						<li><strong>Projects</strong> <br> Restaurant Automation System<br>Aerial to Ground Geo-Localisation</li>
+					</ul>
+				</div>
+			</div>
+		</div>	
+	</div>
+</div>
+
+<div class="portfolio-section" id="portfolio">
+	<div id="port_pop_pic_bg"></div>
+	<div id="port_pop_pic"></div>
+	<div class="container-fluid">
+		<h2 class="text-center bdr-btm bdr-btm-center">Portfolio</h2>
+		<div class="row pl-5 pr-5">
+			<div class="col-md-4">
+				<div class="portfolio-box" style="background-image: url('images/1.jpg');">
+					<h3>Drawing</h3>
+				</div>		
+			</div>
+			<div class="col-md-4">
+				<div class="portfolio-box" style="background-image: url('images/2.jpg');">
+					<h3>Painting</h3>
+				</div>		
+			</div>
+			<div class="col-md-4">
+				<div class="portfolio-box" style="background-image: url('images/3.jpg');">
+					<h3>Sketching</h3>
+				</div>		
+			</div>
+			<div class="col-md-4">
+				<div class="portfolio-box" style="background-image: url('images/5.jpg');">
+					<h3>Clicking</h3>
+				</div>		
+			</div>
+			<div class="col-md-4">
+				<div class="portfolio-box" style="background-image: url('images/6.jpg');">
+					<h3>Photography</h3>
+				</div>		
+			</div>
+			<div class="col-md-4">
+				<div class="portfolio-box" style="background-image: url('images/7.jpg');">
+					<h3>Other Crafts</h3>
+				</div>		
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="contact-section d-md-flex" id="contact">
+  <div class="col-md-6 col-12 contact_section_left">
+    <div class="contact_box">
+      <i class="fa fa-phone"></i>
+      <h3>Phone</h3>
+      <p>8688151218</p>
+    </div>
+    <div class="contact_box">
+      <i class="fa fa-envelope"></i>
+      <h3>Email</h3>
+      <p>r161569@rguktrkv.ac.in</p>
+    </div>
+    <div class="contact_box">
+      <i class="fa fa-map-marker"></i>
+      <h3>Address</h3>
+      <p>16/119, Thirumalanayuni Pet, Proddatur</p>
+    </div>
+  </div>
+  <div class="col-md-6 col-12 contact_section_right d-flex align-items-center">
+    <div class="contact_box">
+      <h2 class="bdr-btm">Get In Touch</h2>
+      <form>
+        <div>
+          <input type="text" name="" placeholder="Name">
+          <input type="text" name="" placeholder="Email">
+          <input type="text" name="" placeholder="Subject">
+          <textarea placeholder="Message"></textarea>
+          <input type="submit" class="inline-block" name="" value="Send Message" onclick="return confirm('Are you sure you want to send this message?')">
+
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
+
+<script type="text/javascript">
+	portfolioList = document.querySelectorAll('.portfolio-box');
+	portfolioList.forEach(function(portfolioPic) {
+		portfolioPic.addEventListener('click',function(){
+			bg = this.style.backgroundImage;
+			document.getElementById('port_pop_pic_bg').classList.add("active")
+			document.getElementById('port_pop_pic').style.backgroundImage = bg
+			document.getElementById('port_pop_pic').classList.add("active")
+		});	
+	})
+	document.getElementById('port_pop_pic_bg').addEventListener('click',function(){
+			document.getElementById('port_pop_pic_bg').classList.remove("active")
+			document.getElementById('port_pop_pic').classList.remove("active")
+	})
+</script>
+
+</body>
+</html>
